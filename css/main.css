@@ -89,20 +89,31 @@ textarea {
 
    header,
    footer,
-   main,
-   section,
-   .content-wrapper {
+   main {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: column;
+     margin: 0 20px;
    }
 
-   section {
-     width: 100%;
+   header {
+     padding: 15px 0;
    }
 
+   header .content-wrapper {
+    width: 60%;
+   }
 
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+   }
+
+   section,
+   aside {
+     margin: 30px 0;
+   }
 
 /* ==========================================================================
    Helper classes
