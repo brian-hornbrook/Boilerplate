@@ -87,6 +87,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   header,
+   footer,
+   main,
+   section,
+   .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column;
+   }
+
+   section {
+     width: 100%;
+   }
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
