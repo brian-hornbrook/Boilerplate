@@ -87,6 +87,26 @@
      Author's custom styles
      ========================================================================== */
 
+     html {
+       font-size: 16px;
+     }
+
+     body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+     }
+
+     h2,
+     h3,
+     h4 {
+      font-family: 'Poppins', sans-serif;
+     }
+
+     a {
+      color: #e2e3ed;
+      text-decoration: none;
+     }
+
      /* header footer */
      header,
      footer {
