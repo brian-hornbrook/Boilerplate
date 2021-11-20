@@ -4,20 +4,57 @@
   ==========
 */
 
-/* features */
-.features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
+
+/* mission */
+.mission {
+  background-color: #527158;
 }
 
-.features-items article {
-width: 60%;
+/* map */
+.map {
+  display: none;
 }
+
+/* contact */
+.contact {
+  background-color: #2a423a;
+}
+
+.contact address {
+  font-size: .9rem;
+}
+
+.contact address div {
+  margin: 40px 0;
+}
+
+.contact address h2 {
+  font-weight: 100;
+}
+
+.contact address p {
+  line-height: 2px;
+  font-size: .8rem;
+}
+
 
 /***** TABLET *****/
 @media only screen and (min-width: 768px) {
+  /* main */
+  .mission,
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+
+ .content-wrapper {
+    width: 80%;
+  }
+
+  .content-wrapper h1 {
+    font-size: 2.1rem;
+  }
+
   /* mission */
   .mission-content {
     display: flex;
@@ -37,10 +74,6 @@ width: 60%;
     margin: 0;
   }
 
-  .contact .content-wrapper {
-    width: 100%;
-  }
-
   .contact address {
     display: flex;
     flex-flow: row;
@@ -50,18 +83,23 @@ width: 60%;
     width: 50%;
     display: flex;    
     flex-flow: column;
-    align-items: center; 
   }
 
   .contact address div p {
     margin: 0;
+    line-height: normal;
+    font-size: medium;
   }
 }
 
 /***** DESKTOP *****/
 @media only screen and (min-width: 1200px) {
   /* contact */
-  .contact address div {
-    display: block;
+  .content-wrapper h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: medium;
   }
 }

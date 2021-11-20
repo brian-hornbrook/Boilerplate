@@ -93,7 +93,7 @@
 
      body {
         font-family: 'Open Sans', sans-serif;
-        font-size: 1em;
+        font-size: .9rem;
      }
 
      h2,
@@ -107,45 +107,69 @@
       text-decoration: none;
      }
 
+     img {
+       width: 100%;
+     }
+
      /* header footer */
      header,
      footer {
        display: flex;
        align-items: center;
+       justify-content: center;
        flex-flow: column;
-       margin: 0 20px;
+       background-color: #202322;
      }
   
      header {
        padding: 15px 0;
+       height: 120px;
+     }
+
+     header .header-divider {
+       border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+       height: 1px;
+       width: 100%;
+       margin-top: 10px;
      }
   
      header .content-wrapper {
-      width: 60%;
+      width: 80%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: column;
+      color: #ffffffba;
+      margin-top: 0;
+      text-transform: uppercase;
      }
 
-     header .content-wrapper a {
-       color: black;
+     header .content-wrapper h1 {
+       margin: 0;
      }
 
      header nav {
        width: 75%;
        display: flex;
        flex-flow: row;
-       justify-content: space-between;
+       justify-content: center;
+       margin: 20px 0;
      }
+
+     header .content-wrapper a {
+      color: white;
+      padding: 0 5px;
+      font-size: 1.4rem;
+    }
   
+    /* footer */
      footer .content-wrapper {
        display: flex;
        justify-content: center;
        align-items: center;
        flex-flow: column;
        width: 55%;
-       margin: 50px 0;
+       margin: 50px 0 10px 0;
      }
 
      footer address {
@@ -154,14 +178,19 @@
        flex-flow: column;
      }
 
-     footer .contact {
+     footer address p,
+     footer address a {
+       margin: 0;
+     }
+
+     footer .footer-contact {
        display: flex;
        align-items: center;
        flex-flow: column;
      }
 
      footer .social {
-      margin: 50px 0;
+      margin: 30px 0;
       display: flex;
       align-items: center;
       flex-flow: column;
@@ -179,15 +208,69 @@
      /* main */
      section,
      aside {
-       margin: 30px 0;
+       padding: 50px 0;
      }
 
      aside {
-       background-color: #008045ad;
+      background-color: #527158;
+      padding: 50px 20px;
+      color: white;
      }
 
+     .content-wrapper {
+       color: white;
+       margin: 0 20px;
+     }
+
+     /* images */
+     .hero-area,
+     .features,
+     .reviews .imgs {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      min-height: 400px;
+     }
+
+     .hero-area {
+      background-image: url('../img/jake-melara-30679-unsplash.jpg');
+     }
+
+     .features {
+      background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+     }
+
+     .reviews .imgs {
+       background-image: url('../img/omar-lopez-296944-unsplash.jpg');
+       min-height: 300px;
+     }
+
+     /* features */
+     .features .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+    }
+
+    .features .features-items {
+      width: 60%;
+      display: flex;
+      flex-flow: column;
+    }
+
+    .features article p {
+      font-size: .9rem;
+    }
+
+     /* reviews */
      .reviews {
-      background-color: #00806299;
+      background-color: #2a423a;
+      flex-flow: column;
+      min-height: 300px;
+      display: flex;
+      padding-bottom: 100px;
     }
 
      /* form */
@@ -307,17 +390,18 @@
     /* header */
     header {
       padding: 0 60px;
+      border-bottom: 1px solid grey;
     }
 
     header .content-wrapper {
-      display: block;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row;
       width: 100%;
     }
 
-    header .content-wrapper a {
-      float: left;
-      font-size: 1.5rem;
-      text-transform: uppercase;
+    header .header-divider {
+      display: none;
     }
 
     header nav {
@@ -374,13 +458,20 @@
     aside,
     .features,
     .reviews {
-      padding: 0 60px;
+      padding: 50px 60px;
+    }
+
+    /* hero area */
+    .hero-area h1 {
+      font-size: 3em;
     }
 
     /* form */
     aside {
       display: flex;
       flex-flow: row;
+      font-size: 1.1rem;
+
     }
 
     aside .form-description  {
@@ -399,12 +490,13 @@
     }
 
     /* features */
-    .features-items {
+    .features .features-items {
       display: flex;
       flex-flow: row wrap;
+      width: 100%;
     }
 
-    article {
+    .features article {
       width: 50%;
       padding: 0 70px;
       box-sizing: border-box;
@@ -413,35 +505,73 @@
     /* reviews */
     .reviews .content-wrapper {
       display: flex;
+      flex-flow: column;
+    }
+
+    .reviews article {
+      width: 100%;
+      display: flex;
       flex-flow: row;
     }
 
     .reviews .imgs {
       width: 50%;
+      min-height: 100px;
     }
 
     .reviews .reviews-content {
       width: 50%;
+      margin-left: 10px;
+    }
+
+    .reviews .reviews-content h2 {
+      margin: 0;
+      font-weight: 100;
+      font-size: 1.5rem;
     }
 
   }
 
   /***** DESKTOP *****/
   @media only screen and (min-width: 1200px) {
-  /* footer */
-  footer .content-wrapper {
-    width: 100%;
-  }
+    /* header */
+    header .content-wrapper {
+      width: 75%;
+    }
 
-  footer address {
-    width: 100%;
-  }
+    header .content-wrapper h1 {
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+
+    header .content-wrapper nav a {
+      padding: 0 30px;
+    }
+
+  /* footer */
+    footer .content-wrapper {
+      font-size: 1.2rem;
+    }
+
+    footer address {
+      width: 100%;
+    }
+
+    footer .footer-contact h3 {
+      font-size: 1.5rem;
+    }
+
+    footer .footer-contact p,
+    footer .footer-contact a {
+      font-size: .9rem;
+    }
   
+    /* main */
     .hero-area,
     aside,
     .features,
     .reviews {
-      padding: 0 120px;
+      padding: 50px 120px;
     }
 
     /* sign up */
@@ -454,10 +584,44 @@
     }
 
     /* features */
-    article {
+    .features article {
       width: 33%;
-      padding: 0 70px;
-      box-sizing: border-box;
+      padding: 0 40px;
+    }
+
+    .features article p {
+      font-size: 1.1rem;
+    }
+
+    /* reviews */
+    .reviews {
+      min-height: 550px;
+      font-size: 1.2rem;
+    }
+
+    .reviews h1 {
+      margin: 30px 0;
+    }
+
+    .reviews article {
+      padding: 50px 0;
+    }
+
+    .reviews .imgs {
+      min-height: 350px;
+    }
+
+    .reviews .reviews-content {
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+    }
+
+    .reviews .reviews-content h2,
+    .reviews .reviews-content p {
+      display: flex;
+      flex-flow: column;
+      width: 80%;
     }
   }
   
