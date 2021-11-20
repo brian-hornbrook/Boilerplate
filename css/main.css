@@ -144,8 +144,9 @@
       text-transform: uppercase;
      }
 
-     header .content-wrapper h1 {
+     header .content-wrapper img {
        margin: 0;
+       width: 300px;
      }
 
      header nav {
