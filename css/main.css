@@ -261,8 +261,19 @@
       flex-flow: column;
     }
 
+    .features article {
+      margin: 30px 0;
+    }
+
     .features article p {
       font-size: .9rem;
+      text-align: center;
+      margin: 0;
+    }
+
+    .features article i {
+      font-size: 3.75em;
+      margin-bottom: 40px;
     }
 
      /* reviews */
