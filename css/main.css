@@ -11,13 +11,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-  }
-  
-  /*
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
    *
@@ -26,303 +26,312 @@
    *
    * Customize the background color to match your design.
    */
-  
-  ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-  }
-  
-  /*
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
    * A better looking default horizontal rule
    */
-  
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  
-  /*
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
    * Remove the gap between audio, canvas, iframes,
    * images, videos and the bottom of their containers:
    * https://github.com/h5bp/html5-boilerplate/issues/440
    */
-  
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-    vertical-align: middle;
-  }
-  
-  /*
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
    * Remove default fieldset styles.
    */
-  
-  fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /*
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
    * Allow only vertical resizing of textareas.
    */
-  
-  textarea {
-    resize: vertical;
-  }
-  
-  /* ==========================================================================
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
      Author's custom styles
      ========================================================================== */
 
-     html {
-       font-size: 16px;
-     }
+html {
+  font-size: 16px;
+}
 
-     body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: .9rem;
-     }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+}
 
-     h2,
-     h3,
-     h4 {
-      font-family: 'Poppins', sans-serif;
-     }
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
 
-     a {
-      color: #e2e3ed;
-      text-decoration: none;
-     }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
 
-     img {
-       width: 100%;
-     }
+img {
+  width: 100%;
+}
 
-     /* header footer */
-     header,
-     footer {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-flow: column;
-       background-color: #202322;
-     }
-  
-     header {
-       padding: 15px 0;
-       height: 120px;
-     }
+/* header footer */
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background-color: #202322;
+}
 
-     header .header-divider {
-       border-bottom: 1px solid rgba(128, 128, 128, 0.349);
-       height: 1px;
-       width: 100%;
-       margin-top: 10px;
-     }
-  
-     header .content-wrapper {
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column;
-      color: #ffffffba;
-      margin-top: 0;
-      text-transform: uppercase;
-     }
+header {
+  padding: 15px 0;
+  height: 120px;
+}
 
-     header .content-wrapper img {
-       margin: 0;
-       width: 300px;
-     }
+header .header-divider {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+}
 
-     header nav {
-       width: 75%;
-       display: flex;
-       flex-flow: row;
-       justify-content: center;
-       margin: 20px 0;
-     }
+header .content-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  color: #ffffffba;
+  margin-top: 0;
+  text-transform: uppercase;
+}
 
-     header .content-wrapper a {
-      color: white;
-      padding: 0 5px;
-      font-size: 1.4rem;
-    }
-  
-    /* footer */
-     footer .content-wrapper {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-flow: column;
-       width: 55%;
-       margin: 50px 0 10px 0;
-     }
+header .content-wrapper img {
+  margin: 0;
+  width: 300px;
+}
 
-     footer address {
-       display: flex;
-       justify-content: center;
-       flex-flow: column;
-     }
+header nav {
+  width: 75%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 20px 0;
+}
 
-     footer address p,
-     footer address a {
-       margin: 0;
-     }
+header .content-wrapper a {
+  color: white;
+  padding: 0 5px;
+  font-size: 1.4rem;
+}
 
-     footer .footer-contact {
-       display: flex;
-       align-items: center;
-       flex-flow: column;
-     }
+/* footer */
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 55%;
+  margin: 50px 0 10px 0;
+}
 
-     footer .social {
-      margin: 30px 0;
-      display: flex;
-      align-items: center;
-      flex-flow: column;
-     }
+footer address {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
 
-     footer .social-content {
-      display: flex;
-      flex-flow: row;
-    }
+footer address p,
+footer address a {
+  margin: 0;
+}
 
-    .social-icons {
-      padding: 0 20px;
-    }
+footer .footer-contact {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
 
-     /* main */
-     section,
-     aside {
-       padding: 50px 0;
-     }
+footer .footer-title {
+  font-size: 1.3rem;
+  margin: 23px 0;
+}
 
-     aside {
-      background-color: #527158;
-      padding: 50px 20px;
-      color: white;
-     }
+footer .social {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
 
-     .content-wrapper {
-       color: white;
-       margin: 0 20px;
-     }
+footer .social-content {
+  display: flex;
+  flex-flow: row;
+}
 
-     /* images */
-     .hero-area,
-     .features,
-     .reviews .imgs {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      display: flex;
-      min-height: 400px;
-     }
+.social-icons {
+  padding: 0 20px;
+}
 
-     .hero-area {
-      background-image: url('../img/jake-melara-30679-unsplash.jpg');
-     }
+/* main */
+section,
+aside {
+  padding: 50px 0;
+}
 
-     .features {
-      background-image: url('../img/rawpixel-800820-unsplash1.jpg');
-     }
+aside {
+  background-color: #527158;
+  padding: 50px 20px;
+  color: white;
+}
 
-     .reviews .imgs {
-       background-image: url('../img/omar-lopez-296944-unsplash.jpg');
-       min-height: 300px;
-     }
+.content-wrapper {
+  color: white;
+  margin: 0 20px;
+}
 
-     /* features */
-     .features .content-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: column;
-    }
+/* images */
+.hero-area,
+.features,
+.reviews .imgs {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  min-height: 400px;
+}
 
-    .features .features-items {
-      width: 60%;
-      display: flex;
-      flex-flow: column;
-    }
+.hero-area {
+  background-image: url('../img/jake-melara-30679-unsplash.jpg');
+}
 
-    .features article {
-      margin: 30px 0;
-    }
+.features {
+  background-image: url('../img/rawpixel-800820-unsplash1.jpg');
+}
 
-    .features article p {
-      font-size: .9rem;
-      text-align: center;
-      margin: 0;
-    }
+.reviews .imgs {
+  background-image: url('../img/omar-lopez-296944-unsplash.jpg');
+  min-height: 300px;
+}
 
-    .features article i {
-      font-size: 3.75em;
-      margin-bottom: 40px;
-    }
+/* features */
+.features {
+  justify-content: center;
+  padding: 50px 60px;
+}
+.features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
 
-     /* reviews */
-     .reviews {
-      background-color: #2a423a;
-      flex-flow: column;
-      min-height: 300px;
-      display: flex;
-      padding-bottom: 100px;
-    }
+.features .features-items {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+}
 
-     /* form */
-    input[type=text] {
-      box-sizing: border-box;
-      width: 100%;
-      color: #2a423a;
-      font-style: italic;
-      padding: 1em;
-    }
-     
-    input[type=button] {
-      width: 100%;
-      padding: 20px 0;
-      margin-top: 20px;
-      background-color: #2a423a;
-      font-family: 'Poppins', Helvetica, Arial, sans-serif;
-      font-weight: 500;
-      font-size: 1.125em;
-      color: #e2e3ed;
-      border: none;
-      text-align: center;
-      text-transform: uppercase;
-    }
+.features div {
+  margin: 30px 0;
+}
 
-  
-  /* ==========================================================================
+.features div p {
+  font-size: .9rem;
+  text-align: center;
+  margin: 0;
+}
+
+.features div i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+/* reviews */
+.reviews {
+  background-color: #2a423a;
+  flex-flow: column;
+  min-height: 300px;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+/* form */
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* ==========================================================================
      Helper classes
      ========================================================================== */
-  
-  /*
+
+/*
    * Hide visually and from screen readers
    */
-  
-  .hidden,
-  [hidden] {
-    display: none !important;
-  }
-  
-  /*
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
    * Hide only visually, but have it available for screen readers:
    * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
    *
@@ -330,46 +339,46 @@
    *    causes content to wrap 1 word per line:
    *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
    */
-  
-  .sr-only {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    /* 1 */
-  }
-  
-  /*
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
    * Extends the .sr-only class to allow the element
    * to be focusable when navigated to via the keyboard:
    * https://www.drupal.org/node/897638
    */
-  
-  .sr-only.focusable:active,
-  .sr-only.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    white-space: inherit;
-    width: auto;
-  }
-  
-  /*
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
    * Hide visually and from screen readers, but maintain layout
    */
-  
-  .invisible {
-    visibility: hidden;
-  }
-  
-  /*
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
    * Clearfix: contain floats
    *
    * For modern browsers
@@ -380,334 +389,343 @@
    * 2. The use of `table` rather than `block` is only necessary if using
    *    `:before` to contain the top-margins of child elements.
    */
-  
-  .clearfix::before,
-  .clearfix::after {
-    content: " ";
-    display: table;
-  }
-  
-  .clearfix::after {
-    clear: both;
-  }
-  
-  /* ==========================================================================
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
      EXAMPLE Media Queries for Responsive Design.
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
-  
-  /***** TABLET *****/
-  @media only screen and (min-width: 768px) {
-    /* header */
-    header {
-      padding: 0 60px;
-      border-bottom: 1px solid grey;
-    }
 
-    header .content-wrapper {
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row;
-      width: 100%;
-    }
+/***** TABLET *****/
+@media only screen and (min-width: 768px) {
 
-    header .header-divider {
-      display: none;
-    }
-
-    header nav {
-      display: flex;
-      flex-flow: row;
-      width: fit-content;
-      float: right;
-    }
-
-    header nav a {
-      padding: 0 15px;
-    }
-
-    /* footer */
-    footer address {
-      display: flex;
-      width: 490px;
-      justify-content: space-between;
-      flex-flow: row;
-    }
-
-    footer .contact {
-      width: 45%;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      flex-flow: column
-    }
-
-    footer .social {
-      width: 45%;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      flex-flow: column
-    }
-
-    footer .social-content {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    footer .social-content div {
-      padding: 20px;
-    }
-
-    footer .copyright {
-      display: flex;
-      justify-content: center;
-    }
-
-    /* main */
-    .hero-area,
-    aside,
-    .features,
-    .reviews {
-      padding: 50px 60px;
-    }
-
-    /* hero area */
-    .hero-area h1 {
-      font-size: 3em;
-    }
-
-    /* form */
-    aside {
-      display: flex;
-      flex-flow: row;
-      font-size: 1.1rem;
-
-    }
-
-    aside .form-description  {
-      width: 50%;
-      padding: 0 20px;
-    }
-
-    aside .form {
-      width: 50%;
-      padding: 0 20px;
-    }
-
-    aside .form form {
-      display: flex;
-      flex-flow: column;
-    }
-
-    /* features */
-    .features .features-items {
-      display: flex;
-      flex-flow: row wrap;
-      width: 100%;
-    }
-
-    .features article {
-      width: 50%;
-      padding: 0 70px;
-      box-sizing: border-box;
-    }
-
-    /* reviews */
-    .reviews .content-wrapper {
-      display: flex;
-      flex-flow: column;
-    }
-
-    .reviews article {
-      width: 100%;
-      display: flex;
-      flex-flow: row;
-    }
-
-    .reviews .imgs {
-      width: 50%;
-      min-height: 100px;
-    }
-
-    .reviews .reviews-content {
-      width: 50%;
-      margin-left: 10px;
-    }
-
-    .reviews .reviews-content h2 {
-      margin: 0;
-      font-weight: 100;
-      font-size: 1.5rem;
-    }
-
+  /* header */
+  header {
+    padding: 0 60px;
+    border-bottom: 1px solid grey;
   }
 
-  /***** DESKTOP *****/
-  @media only screen and (min-width: 1200px) {
-    /* header */
-    header .content-wrapper {
-      width: 75%;
-    }
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    width: 100%;
+  }
 
-    header .content-wrapper h1 {
-      font-size: 2.5rem;
-      font-weight: 300;
-    }
+  header .header-divider {
+    display: none;
+  }
 
-    header .content-wrapper nav a {
-      padding: 0 30px;
-    }
+  header nav {
+    display: flex;
+    flex-flow: row;
+    width: fit-content;
+    float: right;
+  }
+
+  header nav a {
+    padding: 0 15px;
+  }
 
   /* footer */
-    footer .content-wrapper {
-      font-size: 1.2rem;
-    }
-
-    footer address {
-      width: 100%;
-    }
-
-    footer .footer-contact h3 {
-      font-size: 1.5rem;
-    }
-
-    footer .footer-contact p,
-    footer .footer-contact a {
-      font-size: .9rem;
-    }
-  
-    /* main */
-    .hero-area,
-    aside,
-    .features,
-    .reviews {
-      padding: 50px 120px;
-    }
-
-    /* sign up */
-    aside .form-description {
-      padding: 0 100px;
-    }
-
-    aside .form {
-      padding: 0 100px;
-    }
-
-    /* features */
-    .features article {
-      width: 33%;
-      padding: 0 40px;
-    }
-
-    .features article p {
-      font-size: 1.1rem;
-    }
-
-    /* reviews */
-    .reviews {
-      min-height: 550px;
-      font-size: 1.2rem;
-    }
-
-    .reviews h1 {
-      margin: 30px 0;
-    }
-
-    .reviews article {
-      padding: 50px 0;
-    }
-
-    .reviews .imgs {
-      min-height: 350px;
-    }
-
-    .reviews .reviews-content {
-      display: flex;
-      align-items: center;
-      flex-flow: column;
-    }
-
-    .reviews .reviews-content h2,
-    .reviews .reviews-content p {
-      display: flex;
-      flex-flow: column;
-      width: 80%;
-    }
+  footer address {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    flex-flow: row;
   }
-  
-  /* ==========================================================================
+
+  footer .contact {
+    width: 45%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column
+  }
+
+  footer .social {
+    width: 45%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-flow: column
+  }
+
+  footer .social-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  footer .social-content div {
+    padding: 20px;
+  }
+
+  footer .copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* main */
+  .hero-area,
+  aside,
+  .features,
+  .reviews {
+    padding: 50px 60px;
+  }
+
+  /* hero area */
+  .hero-area h1 {
+    font-size: 3em;
+  }
+
+  /* form */
+  aside {
+    display: flex;
+    flex-flow: row;
+    font-size: 1.1rem;
+
+  }
+
+  aside .form-description {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  aside .form {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  aside .form form {
+    display: flex;
+    flex-flow: column;
+  }
+
+  /* features */
+  .features div {
+    box-sizing: border-box;
+  }
+
+  /* reviews */
+  .reviews .content-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .features .features-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .features .features-items div {
+    width: 50%;
+    padding: 0 70px;
+    box-sizing: border-box;
+  }
+
+  .reviews div {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+  }
+
+  .reviews .imgs {
+    width: 50%;
+    min-height: 100px;
+  }
+
+  .reviews .reviews-content {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  .reviews .reviews-content h2 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+
+}
+
+/***** DESKTOP *****/
+@media only screen and (min-width: 1200px) {
+
+  /* header */
+  header .content-wrapper {
+    width: 75%;
+  }
+
+  header .content-wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  header .content-wrapper nav a {
+    padding: 0 30px;
+  }
+
+  /* footer */
+  footer .content-wrapper {
+    font-size: 1.2rem;
+  }
+
+  footer address {
+    width: 100%;
+  }
+
+  footer .footer-contact h3 {
+    font-size: 1.5rem;
+  }
+
+  footer .footer-contact p,
+  footer .footer-contact a {
+    font-size: .9rem;
+  }
+
+  /* main */
+  .hero-area,
+  aside,
+  .features,
+  .reviews {
+    padding: 50px 120px;
+  }
+
+  /* sign up */
+  aside .form-description {
+    padding: 0 100px;
+  }
+
+  aside .form {
+    padding: 0 100px;
+  }
+
+  /* features */
+  .features .features-items div {
+    width: 33%;
+    padding: 0 40px;
+  }
+
+  .features div p {
+    font-size: 1.1rem;
+  }
+
+  /* reviews */
+  .reviews {
+    min-height: 550px;
+    font-size: 1.2rem;
+  }
+
+  .reviews h1 {
+    margin: 30px 0;
+  }
+
+  .reviews div {
+    padding: 50px 0;
+  }
+
+  .reviews .imgs {
+    min-height: 350px;
+  }
+
+  .reviews .reviews-content {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .reviews .reviews-content h2,
+  .reviews .reviews-content p {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+  }
+}
+
+/* ==========================================================================
      Print styles.
      Inlined to avoid the additional HTTP request:
      https://www.phpied.com/delay-loading-your-print-css/
      ========================================================================== */
-  
-  @media print {
-    *,
-    *::before,
-    *::after {
-      background: #fff !important;
-      color: #000 !important;
-      /* Black prints faster */
-      box-shadow: none !important;
-      text-shadow: none !important;
-    }
-  
-    a,
-    a:visited {
-      text-decoration: underline;
-    }
-  
-    a[href]::after {
-      content: " (" attr(href) ")";
-    }
-  
-    abbr[title]::after {
-      content: " (" attr(title) ")";
-    }
-  
-    /*
+
+@media print {
+
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    a[href^="#"]::after,
-    a[href^="javascript:"]::after {
-      content: "";
-    }
-  
-    pre {
-      white-space: pre-wrap !important;
-    }
-  
-    pre,
-    blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid;
-    }
-  
-    /*
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    thead {
-      display: table-header-group;
-    }
-  
-    tr,
-    img {
-      page-break-inside: avoid;
-    }
-  
-    p,
-    h2,
-    h3 {
-      orphans: 3;
-      widows: 3;
-    }
-  
-    h2,
-    h3 {
-      page-break-after: avoid;
-    }
+  thead {
+    display: table-header-group;
   }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
